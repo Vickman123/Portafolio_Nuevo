@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Victor_MCG</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ext.js" language="javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Crear pestañas de menú y logotipo en la parte superior usando HTML -->
+    <header>
+        <a href="#" class="logo">Portafolio VMCG</a>  
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Inicio</a></li>
+            <li><a href="#about" onclick="toggleMenu();">Sobre Mi</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Especialidades</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Proyecto</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contacto</a></li>
+            <li><a href="#maps" onclick="toggleMenu();">Mapa</a></li>
+        </ul>
+    </header>
+
+    <!-- Creación de Layout banner en HTML -->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hola, Yo soy<br> <span>Victor M. Carreño</span></h2>
+            <h3>Soy FullStack Developer y Cloud Engineer.</h3>
+            <a href="#about" class="btn">Sobre Mi</a>
+        </div>
+    </section>
+
+    <!-- Crear un diseño "Sobre mi" en HTML -->
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Un poco</p>
+            <h2>Sobre mi</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="images/myPic2.jpg" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Quien soy?</h3>
+                <h2>Yo soy <b>Victor Carreño</b>, un diseñador  UX/UI y desarrollador web ademas me especializo en el desarrollo en la nube</h2>
+                <p>Soy un estudiante de la Licenciatura de Ciencias de la informatica en UPIICSA , he elaborado algunos proyectos personales en WebApps y Aplicaciones Moviles, Ademas me especializo en el desarrollo de diferentes Nubes.</p><br>
+                <p>En el ambito profesional soy un apasionado por la ciencia y tecnologia que le gusta participar y aportar a eventos de comunidades de tecnologia ,asi como seguir aprendiendo las ultimas tendencias de la informatica y tecnologia.</p>
+                <div class="heading bottom">
+                    <a href="#" class="btn round">Descargar CV</a>
+                    <div class="bt">
+                        <b>Name:</b> Victor M. Carreño Garavito<br>
+                        <b>Edad:</b> 21
+                    </div>
+                    <div class="bt">
+                        <b>Email:</b> victormcarreg@gmail.com<br>
+                        <b>Ubicacion:</b> CDMX, Mexico
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creación de Layot de servicios en HTML -->
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Mis Servicios</h2>
+            <p>Algunos de los servicios que realizo:</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <i class="fa fa-address-card-o fa-4x"></i>
+                <h3>Diseño UX/UI</h3> 
+                <p> Realizo desde el proceso basico del diseño UX que es Empatizar, Definir e Idear, Adi como crear prototipos de alta y baja fidelidad, como realizar investigaciones, diagramas de afinidad usando herramientas como Figma, Adobe xD y Canva.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-list-alt fa-4x"></i>
+                <h3>Desarrollo FrontEnd</h3>
+                <p>Realizar diseños y animaciones en el Stack Htmls, Css y Javascript, ademas de usar algunos frameworks como Bootstrap y VueJs </p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-terminal fa-4x"></i>
+                <h3>Desarrollo Backend</h3>
+                <p>Realizo el proceso donde se diseñará, modificará, reparará y mantendrá aplicaciones de software o sistemas de información, entre otros servicios, garantizando un uso fluido y sin contratiempos que generen estrés para compañeros, clientes y otros usuarios finales.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-android fa-4x"></i>
+                <h3>Diseño de Aplicaciones</h3>
+                <p>Creacion y Diseño de aplicaciones moviles multiplataforma con Dart y Flutter</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-cloud-upload fa-4x"></i>
+                <h3>Administracion y Migracion de Servicios en la Nube</h3>
+                <p>Servicio de consultoria para la migracion de servicios o sistemas informaticos a la nube, de acuerdo a las necesidades del cliente, tengo conocimientos en nubes como Google CLoud , Azure, Alibaba Cloud, IBM Cloud y AWS</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-cloud fa-4x"></i>
+                <h3>Desarrollo en la Nube</h3>
+                <p>Desarroll FullStack en la nube ,desde la creacion e implemntacion de aplicaciones ,hasta el analisis y manejo de las bases de datos </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creacion de Layout de proyectos en HTML -->
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Proyectos Realizados</h2>
+            <p>Algunos de mis proyectos realizados:</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <a href="https://github.com/Vickman123/Proyecto_inmobiliaria_Java" target="_blank">
+                    <img src="images/Java.png" alt="">
+                    <p>Proyecto Inmobiliaria Java</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://vickman123.github.io/Agencia_Desarrollo_Web/" target="_blank">
+                    <img src="images/Agencia.png" alt="">
+                    <p>Lading Page Agencia de Desarrollo Web</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://www.udemy.com/course/css-nextlevel/?referralCode=86C577A88AE684ADB9F0" target="_blank">
+                    <img src="images/Talent.png" alt="">
+                    <p>Music Talend Aplicacion Escolar</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://vickman123.github.io/Generador_QR_WEB/" target="_blank">
+                    <img src="images/QR.png" alt="">
+                    <p>Generado QR</p>
+                </a>
+            </div>
+            <div class="heading">
+                <a href="https://github.com/Vickman123" target="_blank" class="btn" style="color:#fff;">Ver mi repositorio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creando  Layout de contacto en HTML -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Siéntete libre de contactarme en cualquier momento</p>
+            <h2>Contacta conmingo   </h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contacto</h3>
+                <p>Me encuentro disponible para cualquier trabajo, si tiene un proyecto no dude en ponerse en contacto conmigo!</p>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Direccion</h3>
+                            <p>Venustiano Carranza, Ciudad de Mexico, 15410</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Numero Telefonico:</h3>
+                            <p>+55 8329-4642</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Correo Electronico</h3>
+                            <p>Victormcarreg@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Redes sociales</h3>
+                    <div class="boxSocial">
+                        <div class="icon">
+                            <a href="https://www.facebook.com/VickCarG/" target="_blank">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://twitter.com/CarrenoGara" target="_blank">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/vickcg/" target="_blank">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.instagram.com/vickman_1505/" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Puedes enviarme un mensaje por WhatsApp</h3>
+                    <br>
+                    <a aria-label="Chat on WhatsApp" href="https://wa.me/525583294642"> <img alt="Chat on WhatsApp" width="500" height="100"src="images/wapp.png" /> </a>
+                    <br>
+                    <h3>Tambien puedes contactarme por Telegram</h3>
+                    <br>
+                    <a aria-label="Chat on Telegram" href="https://t.me/VICKMAN12" ><img alt="Chat on Telegram" width="500" height="120"src="images/telegram.png" /></a>
+                </form></div>
+        </div>
+    </section>
+    
+    <section class="maps" id="maps">
+        <div class="heading white">
+            <h2>Ubicacion Cercana</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+         <div class="col-lg-11 ml-auto">
+        <div class="about-info">
+    <br><br>
+       <div class="col-12 wow zoomIn">
+        <div class="google-map container">
+            <div class="embed-responsive embed">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30096.87727263591!2d-99.10413952051549!3d19.45083833035249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1621144696351!5m2!1ses-419!2smx" width="1100" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+           </div>
+       </div>
+      <br>
+</section>
+
+    <!-- Creating Footer Layout in HTML -->
+    <footer class="copyright">
+        <p>&copy; 2022, Victor Manuel Carreño Garavito</p>
+    </footer>
+</body>
+</html>
